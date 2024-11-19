@@ -1,0 +1,15 @@
+body {
+    background-color: #999;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #48d;
+    text-shadow: 0 0 3px #fff;
+}
+
+.nav__item {
+    display: inline-block;
+}
