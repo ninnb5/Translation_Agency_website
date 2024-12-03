@@ -1,1 +1,65 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TranslationAgency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #464040;
+      color: #fff;
+    }
+    header .logo {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .nav-menu {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-menu a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+    .nav-menu a:hover {
+      color: #69e2dc;
+    }
+    .header-actions a {
+      text-decoration: none;
+      color: #fff;
+      padding: 8px 15px;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .header-actions a:hover {
+      background-color: #69e2dc;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">TranslationAgency</div>
+    <nav class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <li><a href="#contact">COntacts</a></li>
+    </nav>
+    <div class="header-actions">
+      <a href="#login">Sign In</a>
+      <a href="#signup">Sign Up</a>
+    </div>
+  </header>
+</body>
+</html>
