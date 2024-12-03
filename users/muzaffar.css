@@ -1,0 +1,44 @@
+header{
+    position: relative;
+    top: 0;
+}
+.navigation_item{
+    display: flex;
+}
+.main_navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBDBDB;
+}
+.item{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #295270;
+    font-size: 19px;
+}
+.navigation_items{
+    display: flex;
+}
+.logo{
+    margin-top: 15px;
+}
+.logo_item{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #295270;
+}
+.item:hover{
+    color: #4b749f;
+}
+.active{
+    color: #08203e;
+}
+.sign_btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #392d69;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+}
