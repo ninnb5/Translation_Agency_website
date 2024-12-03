@@ -1,17 +1,29 @@
 .div1 {
     grid-area: 1;
+    background-color: #a6faff;
+    border: #18786f;
+    border-radius: 15px;
 }
 
 .div2 {
     grid-area: 2;
+    background-color: #a6faff;
+    border: #18786f;
+    border-radius: 15px;
 }
 
 .div3 {
     grid-area: 3;
+    background-color: #a6faff;
+    border: #18786f;
+    border-radius: 15px;
 }
 
 .div4 {
     grid-area: 4;
+    background-color: #a6faff;
+    border: #18786f;
+    border-radius: 15px;
 }
 
 .mainbody {
