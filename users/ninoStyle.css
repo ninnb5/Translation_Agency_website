@@ -1,0 +1,134 @@
+body {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+#one {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    background-color: pink;
+    font-size: 48px;
+    font-family: 'Arial';
+    color: white; 
+    font-weight: bold;
+
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Home{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.Home:hover{
+    background-color: pink;
+    color: white;
+}
+
+.Languages{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.Languages:hover {
+    background-color: pink;
+    color: white;
+}
+
+.Pricing{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.Pricing:hover{
+    background-color: pink;
+    color: white;
+}
+
+.Industries{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.Industries:hover {
+    background-color: pink;
+    color: white;
+}
+
+.About{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.About:hover{
+    background-color: pink;
+    color: white;
+}
+
+.Contact{
+    border-color: pink;
+    color: #D5006D;
+}
+
+.Contact:hover{
+    background-color: pink;
+    color: white;
+}
+
+.Georgian{
+    height: 150px;
+    width: 380px;
+    background-color: white;
+    color: #D5006D;
+    border-color: pink;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.English{
+    height: 150px;
+    width: 380px;
+    background-color: white;
+    color: #D5006D;
+    border-color: pink;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.Latvian{
+    height: 150px;
+    width: 380px;
+    background-color: white;
+    color: #D5006D;
+    border-color: pink;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.contact{
+    position: fixed;
+    bottom: 10px;
+    right: 200px;
+    color: #D5006D;
+
+}
+
+.copyright{
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    color: #D5006D;
+}
