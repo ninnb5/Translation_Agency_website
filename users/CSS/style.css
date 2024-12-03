@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  .button-container {
+    text-align: center;
+  }
+  
+
+  .translate-button {
+    background: rgb(14, 85, 130);
+    background-size: 100px;
+    color: whitesmoke;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    animation: gradientShift 6s ease infinite;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.235);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-transform: uppercase;
+  }
+  
+
+  .translate-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  
