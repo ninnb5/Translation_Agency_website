@@ -15,6 +15,7 @@
 .footer__subtitle {
     font-size: 28px;
     color: #fff;
+    margin-left: 50px;
 }
 
 .footer__list {
@@ -24,6 +25,7 @@
     margin-top: 25px;    
 }
 
+
 .footer__item {
     padding: 1px 8px;
 }
@@ -31,6 +33,7 @@
 .footer__item a {
     text-decoration: none;
     color: #fff;
+    padding-top: 10px;
 }
 
 .footer__item-contact {
