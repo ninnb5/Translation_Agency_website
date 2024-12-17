@@ -1,46 +1,48 @@
-header{
-    position: relative;
-    top: 0;
+.footer {
+    background-color: #000d;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 10px;
 }
-.navigation_item{
+
+.container {
     display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding: 10px;
 }
-.main_navigation{
-    display: flex;
-    justify-content: space-around;
-    background-color: #DBDBDB;
+
+.footer__subtitle {
+    font-size: 28px;
+    color: #fff;
 }
-.item{
-    margin-left: 30px;
+
+.footer__list {
+    min-width: 100%;
+    list-style: none;
     text-decoration: none;
-    color: #295270;
-    font-size: 19px;
+    margin-top: 25px;    
 }
-.navigation_items{
-    display: flex;
+
+.footer__item {
+    padding: 1px 8px;
 }
-.logo{
-    margin-top: 10px;
-}
-.logo_item{
-    margin-top: 3px;
+
+.footer__item a {
     text-decoration: none;
-    color: #295270;
-    font-weight: bold;
-    font-size: 25px;
+    color: #fff;
 }
-.item:hover{
-    color: #4b749f;
+
+.footer__item-contact {
+    text-decoration: none;
 }
-.active{
-    color: #08203e;
+
+.footer__item-contact:hover {
+    text-decoration: underline;
 }
-.sign_btn{
-    padding: 10px 30px;
-    border: none;
-    border-radius: 30px;
-    background-color: #392d69;
-    color: #ffff;
-    font-size: 15px;
-    cursor: pointer;
+
+.copyright {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
 }
