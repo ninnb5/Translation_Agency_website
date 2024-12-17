@@ -48,8 +48,6 @@ body {
   gap: 10px;
   padding: 20px 10px;
   display: grid;
-  border-radius: 15px;
-  box-shadow: 10px 10px 5px black;
   grid-template-areas: 
   "main aside";}
 
@@ -57,12 +55,16 @@ body {
   background-color: #ddd;
   grid-area: main;
   padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
   }
   
 .aside {
   background-color: #ddd;
   grid-area: aside;
   padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
   }
 
   .menu-button {
