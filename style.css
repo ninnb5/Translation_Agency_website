@@ -213,10 +213,10 @@ body {
   }
   
   .button-container {
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   position: relative;
+   left: 95%;
+   margin-top: 50px;
+   transform: translate(-50%, -50%);
   }
   
   .translate-button {
