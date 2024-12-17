@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #fffffff4;
+    background-image: url("background.png");
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -241,6 +241,19 @@ body {
   .translate-button:hover {
     transform: scale(1.1);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .logo{
+    font-weight: bold;
+    color: #ddd;
+    position: absolute;
+    bottom: 0;            
+    left: 10%;
+    margin-bottom: 30px;            
+    transform: translateX(-50%); 
+    color: white;          
+    font-size: 1.5rem;     
+    font-weight: bold;     
   }
 
 
