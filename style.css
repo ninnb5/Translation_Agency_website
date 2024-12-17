@@ -8,20 +8,35 @@ body {
     min-height: 100vh;
   }
   
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #464040;
+  .header {
+    background-color: #000d;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+
+.header__nav-list {
+    text-align: right;
+    justify-content: center;
+    font-size: 28px;
+    margin-right: 150px;
+}
+
+.header__nav-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.header__nav-item a {
+    text-decoration: none;
     color: #fff;
-  }
-  
-  header .logo {
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
+}
+
+.header__nav-item:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
   .menu-button {
     display: inline-block;
     padding: 10px 20px;
